@@ -7,10 +7,11 @@ public partial class Suggestion1 : ContentPage
     internal Label? PopupLabel { get; set; }
     private SfPopup? Popup;
     public Suggestion1()
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
         InitializePopup();
-	}
+    }
+
     private void InitializePopup()
     {
         Popup = new SfPopup() { ShowFooter = true };

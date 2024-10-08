@@ -6,9 +6,10 @@ public partial class Suggetion2 : ContentPage
     private Entry? entry;
     private Entry? entry1;
     public Suggetion2()
-	{
-		InitializeComponent();
-	}
+    {
+        InitializeComponent();
+    }
+
     private void ClickToShowPopup_Clicked(object sender, EventArgs e)
     {
         popup.Show();
