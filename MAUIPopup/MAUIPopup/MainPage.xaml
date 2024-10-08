@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:popup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
+             xmlns:local="clr-namespace:MAUIPopup"             
+             x:Class="MAUIPopup.MainPage">
+    
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Suggestion1" Clicked="Button_Clicked"/>
+            <Button Text="Suggestion2" Clicked="Button_Clicked_1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

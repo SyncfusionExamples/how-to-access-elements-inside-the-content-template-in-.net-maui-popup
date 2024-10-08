@@ -1,0 +1,27 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:popup="clr-namespace:Syncfusion.Maui.Popup;assembly=Syncfusion.Maui.Popup"
+             xmlns:local="clr-namespace:MAUIPopup"
+             x:Class="MAUIPopup.App">
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+            <!--<Style TargetType="popup:SfPopup">
+                <Setter Property="FooterHeight" Value="60"/>
+                <Setter Property="PopupStyle">
+                    <Setter.Value>
+                        <popup:PopupStyle CornerRadius="8"
+                              FooterFontSize="50"
+                              MessageBackground="Green"/>
+                    </Setter.Value>
+                </Setter>
+            </Style>-->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
